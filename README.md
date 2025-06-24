@@ -7,8 +7,6 @@ Dept. of Artificial Intelligence Technology and Application, Feng Chia Universit
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Scipy](https://img.shields.io/badge/SciPy-1.9+-orange.svg)](https://scipy.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-1.21+-blue.svg)](https://numpy.org/)
 </div>
 
 ## Abstract
