@@ -1,7 +1,7 @@
 <div align="center">
 <h1>mmWave Heart Amplitude Detection</h1>
 <h3>Non-Contact Heart Rate Monitoring using mmWave Radar Technology</h3>
-Chi Hung Wang<sup>1</sup>, Chia-Hsieh Lin<sup>2</sup>, Chih-wei Chen<sup>3</sup>
+Chi Hung Wang<sup>1</sup>, Chia-Hsien Lin<sup>2</sup>, Chih-wei Chen<sup>3</sup>
 
 Dept. of Artificial Intelligence Technology and Application, Feng Chia University, Taichung, Taiwan
 
