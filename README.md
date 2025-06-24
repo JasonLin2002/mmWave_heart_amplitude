@@ -131,7 +131,7 @@ python four_filter_comparison_no_ecg.py
 Compares four signal processing techniques:
 - Detrended and median filtering
 - Bandpass filtering (0.8-2.0 Hz)
-- Wavelet denoising (sym4 wavelet)
+- Wavelet denoising
 - PCA reconstruction
 
 ### 4. ECG Validation Analysis
@@ -205,18 +205,10 @@ At the optimal distance of 45cm with bandpass filtering, DTW distance improvemen
 ## Technical Specifications
 
 - **mmWave Sensor**: Industrial mmWave radar module
-- **Processing Pipeline**: Detrending → Median filtering → Bandpass filtering → Validation
+- **Processing Pipeline**: Detrended and median filtering, Bandpass filtering, Wavelet denoising, PCA reconstruction
 - **Analysis Metrics**: DTW distance, Spearman correlation, Cross-correlation
 - **Statistical Tests**: Independent t-tests, Wilcoxon rank-sum tests
 - **Visualization**: Real-time plotting with matplotlib
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Create a Pull Request
 
 ## Citation
 
@@ -225,7 +217,7 @@ If you use this work in your research, please cite:
 ```bibtex
 @misc{mmwave_heart_amplitude_2025,
   title={mmWave Heart Amplitude Detection: Non-Contact Heart Rate Monitoring using mmWave Radar Technology},
-  author={Your Name},
+  author={Chi-Hung Wang, Chia-Hsieh Lin, Chih-wei Chen},
   year={2025},
   url={https://github.com/JasonLin2002/mmWave_heart_amplitude}
 }
