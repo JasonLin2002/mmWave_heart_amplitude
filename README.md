@@ -217,7 +217,7 @@ If you use this work in your research, please cite:
 ```bibtex
 @misc{mmwave_heart_amplitude_2025,
   title={mmWave Heart Amplitude Detection: Non-Contact Heart Rate Monitoring using mmWave Radar Technology},
-  author={Chi-Hung Wang, Chia-Hsieh Lin, Chih-wei Chen},
+  author={Chi-Hung Wang, Chia-Hsien Lin, Chih-wei Chen},
   year={2025},
   url={https://github.com/JasonLin2002/mmWave_heart_amplitude}
 }
