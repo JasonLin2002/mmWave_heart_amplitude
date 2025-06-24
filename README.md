@@ -80,17 +80,6 @@ pip install pywt dtaidistance
 conda install -c conda-forge jupyter ipykernel
 ```
 
-### Option 2: Using Python venv
-```bash
-# Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install numpy pandas matplotlib scipy scikit-learn seaborn
-pip install pywt dtaidistance jupyter
-```
-
 ### Required Python Packages
 - `numpy` >= 1.21.0
 - `pandas` >= 1.3.0
@@ -104,7 +93,6 @@ pip install pywt dtaidistance jupyter
 ## Dataset Description
 
 ### mmWave Data Format
-- **Sampling Rate**: 11.11 Hz (fixed)
 - **Data Fields**: `Frame_Number`, `Timestamp`, `Heart_Waveform`, `Heart_Rate`
 - **File Format**: CSV files with timestamp-based naming
 - **Measurement Duration**: ~79 seconds per session
@@ -112,7 +100,6 @@ pip install pywt dtaidistance jupyter
 
 ### ECG Reference Data
 - **Device**: Polar H10 chest strap
-- **Sampling Rate**: 130 Hz
 - **Data Fields**: `time` (nanoseconds), `ecg` (amplitude)
 - **Synchronization**: Time-aligned with mmWave measurements
 
