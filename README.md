@@ -1,6 +1,9 @@
 <div align="center">
 <h1>mmWave Heart Amplitude Detection</h1>
 <h3>Non-Contact Heart Rate Monitoring using mmWave Radar Technology</h3>
+Chi Hung Wang<sup>1</sup>, Chia-Hsieh Lin<sup>2</sup>, Chih-wei Chen<sup>3</sup>
+
+Dept. of Artificial Intelligence Technology and Application, Feng Chia University, Taichung, Taiwan
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -55,7 +58,7 @@ mmWave_heart_amplitude/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/mmWave_heart_amplitude.git
+git clone https://github.com/JasonLin2002/mmWave_heart_amplitude.git
 cd mmWave_heart_amplitude
 ```
 
@@ -227,7 +230,7 @@ If you use this work in your research, please cite:
   title={mmWave Heart Amplitude Detection: Non-Contact Heart Rate Monitoring using mmWave Radar Technology},
   author={Your Name},
   year={2025},
-  url={https://github.com/yourusername/mmWave_heart_amplitude}
+  url={https://github.com/JasonLin2002/mmWave_heart_amplitude}
 }
 ```
 
