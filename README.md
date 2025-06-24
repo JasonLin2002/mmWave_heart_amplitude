@@ -17,7 +17,7 @@ This project presents a comprehensive analysis of mmWave radar technology for no
 Our methodology encompasses four main analysis components:
 1. **Multi-Distance Time Comparison**: Comparative analysis of heart signals across different sensing distances
 2. **Optimal Distance Analysis**: Statistical evaluation to determine the best sensing distance using DTW, Spearman correlation, and cross-correlation metrics
-3. **Signal Processing Comparison**: Evaluation of four filtering techniques (median filtering, bandpass filtering, wavelet denoising, PCA reconstruction)
+3. **Signal Processing Comparison**: Evaluation of four filtering techniques (detrended and median filtering, bandpass filtering, wavelet denoising, PCA reconstruction)
 4. **ECG Validation**: Performance validation against Polar H10 ECG reference signals
 
 ## Directory Structure
@@ -139,7 +139,7 @@ Performs comprehensive statistical analysis to determine the optimal sensing dis
 python four_filter_comparison_no_ecg.py
 ```
 Compares four signal processing techniques:
-- Median filtering
+- Detrended and median filtering
 - Bandpass filtering (0.8-2.0 Hz)
 - Wavelet denoising (sym4 wavelet)
 - PCA reconstruction
@@ -155,20 +155,20 @@ Validates mmWave measurements against ECG reference using DTW distance, Spearman
 ### Optimal Distance Analysis
 | Distance | DTW Distance | Spearman Correlation | Cross-Correlation | Composite Score |
 |----------|--------------|---------------------|-------------------|-----------------|
-| 30cm     | 0.125        | 0.743               | 1247.8           | 0.8456          |
-| 45cm     | 0.089        | 0.821               | 1456.2           | 0.9123          |
-| 60cm     | 0.156        | 0.678               | 1034.5           | 0.7234          |
-| 90cm     | 0.203        | 0.543               | 892.1            | 0.6012          |
+| 30cm     | 5.153        | 0.0098              | 439.7            | 0.2123          |
+| 45cm     | 3.557        | 0.0128              | 399.5            | 0.2358          |
+| 60cm     | 4.567        | 0.0117              | 452.5            | 0.2267          |
+| 90cm     | 4.416        | 0.0104              | 446.9            | 0.2278          |
 
 **Result**: 45cm distance provides optimal performance with the highest composite score.
 
 ### Signal Processing Performance
 | Method           | DTW vs Raw | Spearman vs Raw | Cross-Correlation vs Raw | Composite Score |
 |------------------|------------|-----------------|--------------------------|-----------------|
-| Median Filter    | 0.234      | 0.567           | 945.3                    | 0.6234         |
-| Bandpass Filter  | 0.098      | 0.834           | 1523.7                   | 0.9456         |
-| Wavelet Denoise  | 0.123      | 0.782           | 1345.2                   | 0.8567         |
-| PCA Reconstruct  | 0.156      | 0.721           | 1234.8                   | 0.7890         |
+| Detrended and Median Filter | 19.684     | 0.325           | 194.327                  | 0.0694         |
+| Bandpass Filter  | 19.596     | 0.397           | 237.073                  | 0.0754         |
+| Wavelet Denoise  | 20.344     | 0.362           | 220.426                  | 0.0713         |
+| PCA Reconstruct  | 20.814     | 0.289           | 157.164                  | 0.0635         |
 
 **Result**: Bandpass filtering (0.8-2.0 Hz) achieves the best performance for heart signal extraction.
 
