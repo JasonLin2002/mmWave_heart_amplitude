@@ -64,7 +64,7 @@ cd mmWave_heart_amplitude
 
 2. Set up the environment and install dependencies:
 
-### Option 1: Using Conda (Recommended)
+### Option : Using Conda (Recommended)
 ```bash
 # Create and activate conda environment
 conda create -n mmwave_heart python=3.8
