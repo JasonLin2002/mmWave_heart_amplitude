@@ -165,10 +165,10 @@ Validates mmWave measurements against ECG reference using DTW distance, Spearman
 ### DTW Distance Improvement Analysis
 At the optimal distance of 45cm with bandpass filtering, DTW distance improvement reaches nearly 99%.
 
-| Method    | Raw Signal DTW | Bandpass Filtered DTW | Improvement |
-|---------------------------------------------------------|----------------|----------------------|-------------|
-| Comparison of raw signal and ECG(Polar H10)             | 3.42001        | 0.012015             | 522.360342  |
-| Comparison of Bandpass Filtering and ECG(Polar H10)     | 0.034653       | 0.011696             | 523.92184   |
+| Method                                                  | DTW Distance   | Spearman Correlation | Cross-Correlation |
+|---------------------------------------------------------|----------------|----------------------|-------------------|
+| Comparison of raw signal and ECG(Polar H10)             | 3.42001        | 0.012015             | 522.360342        |
+| Comparison of Bandpass Filtering and ECG(Polar H10)     | 0.034653       | 0.011696             | 523.92184         |
 
 **Conclusion**: Under 45cm measurement distance with bandpass filtering, DTW distance improvement reaches approximately 99%, demonstrating significant signal quality enhancement.
 
