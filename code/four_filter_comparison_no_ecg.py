@@ -310,7 +310,7 @@ def visualize_results(results, timestamps, heart_rates, fs):
 
     plt.subplot(6, 1, 5)
     plt.plot(time, results['processed']['pca'], 'c-', label='PCA Denoised')
-    plt.title('PCA Reconstructed Signal')
+    plt.title('PCA Denoised Signal')
     plt.ylabel('Amplitude')
     plt.grid(True)
     plt.xlim(0, 60)
