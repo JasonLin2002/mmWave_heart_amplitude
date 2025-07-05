@@ -1,12 +1,10 @@
 <div align="center">
 <h1>mmWave Heart Amplitude Detection</h1>
 <h3>Application of mmWave Radar in Contactless Heart Rate Monitoring</h3>
+Chi Hung Wang<sup>1</sup>, Chia-Hsien Lin<sup>2</sup>, Chih-wei Chen<sup>3</sup>
+Dept. of Artificial Intelligence Technology and Application, Feng Chia University, Taichung, Taiwan
 
 > **Paper Implementation**: This codebase implements the research findings presented in our academic paper on mmWave radar-based contactless heart rate monitoring.
-
-Chi Hung Wang<sup>1</sup>, Chia-Hsien Lin<sup>2</sup>, Chih-wei Chen<sup>3</sup>
-
-Dept. of Artificial Intelligence Technology and Application, Feng Chia University, Taichung, Taiwan
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
